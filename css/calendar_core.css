@@ -12,11 +12,14 @@ body .fc {
   /* extra precedence to overcome jqui */
   font-size: 1em;
   margin-top: 5em;
-  /*margin-bottom: 5em;*/
+  margin-left:auto;
+  margin-right:auto;
+  width: 90%;
+  margin-bottom: 3em;
 }
 
 .fc-override {
-  margin-top: 0 !important;
+  margin-top: 1em !important;
   margin-bottom: 5em !important;
 }
 
