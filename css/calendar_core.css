@@ -11,8 +11,8 @@
 body .fc {
   /* extra precedence to overcome jqui */
   font-size: 1em;
-  /* padding-top: 5em; */
-  /* padding-bottom: 5em; */
+  margin-top: 5em; */
+  margin-bottom: 5em;
 }
 
 /* Colors
@@ -241,6 +241,7 @@ temporary rendered events).
 --------------------------------------------------------------------------------------------------*/
 .fc-scroller {
   -webkit-overflow-scrolling: touch;
+  height:100% !important;
 }
 
 /* TODO: move to timegrid/daygrid */
