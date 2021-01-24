@@ -12,7 +12,19 @@ body .fc {
   /* extra precedence to overcome jqui */
   font-size: 1em;
   margin-top: 5em;
-  margin-bottom: 5em;
+  /*margin-bottom: 5em;*/
+}
+
+.fc-override {
+  margin-top: 0 !important;
+  margin-bottom: 5em !important;
+}
+
+.inline-icon {
+  width: 30px;
+  float: left;
+  margin-left:5px;
+  margin-right:5px;
 }
 
 /* Colors
